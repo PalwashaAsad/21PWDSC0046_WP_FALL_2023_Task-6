@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 80px;
+}
+
+h1{
+    font-size: 35px;
+    margin-left: 30px;
+}
+
+.container {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.book-list, .add-book, .search-books {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    height: 320px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+h2:hover{
+    text-decoration: underline;
+}
+
+.book-list ul li{
+    font-size: 17px;
+}
+
+.add-book form input{
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    width: 500px;
+    margin: 10px;
+}
+
+.search-books input{
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+    width: 400px;
+    margin: 10px;
+    font-size: 16px;
+}
+
+.search-books ul li{
+    font-size: 17px;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 12px 22px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid gray;
+}

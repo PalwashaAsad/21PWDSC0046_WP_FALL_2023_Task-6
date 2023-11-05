@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+</html>
+<body>
+    <h1>Online Library Management System:</h1>
+    <div class="container"> 
+        <div class="book-list">
+            <h2>Book List</h2>
+            <ul id="book-list">
+                <li>Python for Data Science Handbook by Jake VanderPlas <br>ISBN: 9781491912058</li>
+                <li>Learning Web Design by Jennifer Niederst Robbins <br>ISBN: 9781449319274</li>
+                <li>JavaScript: The Good Parts by Douglas Crockford <br>ISBN: 9780596517748</li>
+                <li>Introduction to Machine Learning with Python by  Andreas C. Müller and Sarah Guido<br>ISBN: 9781449369415</li>
+            </ul>
+        </div>
+        <div class="add-book">
+            <h2>Add New Book</h2>
+            <form id="add-book-form">
+                <input type="text" id="title" placeholder="Title" required><br>
+                <input type="text" id="author" placeholder="Author" required><br>
+                <input type="text" id="isbn" placeholder="ISBN" required><br>
+                <button type="submit">Add Book</button>
+            </form>
+        </div>
+        <div class="search-books">
+            <h2>Search For Books</h2>
+                <input type="text" id="input-box" placeholder="Search by Title" autocomplete="off"><br>
+                <button type="search">Search</button>
+        </div>
+        <div class="search-results">
+            <ul id="search-results">
+                <li></li>
+            </ul>
+        </div>
+        
+    </div>
+</body>
